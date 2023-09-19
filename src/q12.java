@@ -13,7 +13,7 @@ public class q12 extends JFrame {
         getContentPane().setLayout(new GridBagLayout());
 
         // Add the question label with a maximum width of 450
-        JLabel lblNewLabel = createWrappedLabel("<html><center>12. What was the most exciting or surprising aspect of this conference?</center></html>", 450);
+        JLabel lblNewLabel = createWrappedLabel("<html><center>12. What did you learn most about in this conference?</center></html>", 450);
         GridBagConstraints labelConstraints = new GridBagConstraints();
         labelConstraints.gridx = 0;
         labelConstraints.gridy = 0;
